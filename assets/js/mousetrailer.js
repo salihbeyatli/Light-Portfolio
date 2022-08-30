@@ -16,6 +16,12 @@ const animateTrailer = (e, interacting) => {
 
 const getTrailerClass = type => {
   switch(type) {
+    case "imgabout":
+      return "fa-solid fa-address-card fa-inverse";
+    case "headtrack":
+      return "fa-solid fa-paragraph fa-inverse";
+    case "forminput":
+      return "fa-solid fa-text fa-inverse";
     case "video":
       return "fa-solid fa-play fa-inverse";
     default:
@@ -24,7 +30,7 @@ const getTrailerClass = type => {
 }
 
 window.onmousemove = e => {
-  const interactable = e.target.closest(".gallery__thumb"),
+  const interactable = e.target.closest(".mouse_trailer"),
         interacting = interactable !== null;
   
   const icon = document.getElementById("trailer-icon");

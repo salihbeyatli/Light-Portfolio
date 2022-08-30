@@ -328,6 +328,10 @@ input, textarea{
   background-color: #F7FFC0;
 }
 
+textarea{
+  resize:none
+}
+
 button{
   border: 0;
   outline: 0;

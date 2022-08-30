@@ -17,7 +17,7 @@
 </head>
 <body>
     <header>
-        <a class="logo" href="/"><span>Logo</span></a>
+        <a class="logo" href="index.html"><span>Logo</span></a>
         <nav>
           <ul class="nav__links">
             <li><a href="index.html">Work</a></li>
@@ -39,7 +39,7 @@
       <div class="container">
         <div class="hero">
           <div class="hero-about">
-            <h1>Article headline</h1>
+            <h1 data-type="headtrack" class="mouse_trailer">Article headline</h1>
             <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5><br>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam dictum nulla nullam amet morbi eros id
               fringilla. Sed quis morbi dictum aliquam tristique quis euismod id. Libero placerat mollis tincidunt magna
@@ -47,18 +47,18 @@
             
           </div>
           <div class="hero-pic">
-            <img src="assets/images/me.jpg" width="350px" alt="">
+            <a href="about.html" class="mouse_trailer" data-type="imgabout"><img src="assets/images/me.jpg" width="350px" alt=""></a>
           </div>
         </div>
         <div class="contact">
             <form>
                 <span>CONTACT</span>
                 <div class="contact-input">
-                    <input type="text" name="name" placeholder="John Doe"> 
-                    <input type="text" name="email" placeholder="johndoe@example.com"> 
+                    <input type="text" name="name" placeholder="John Doe" data-type="forminput" class="mouse_trailer"> 
+                    <input type="text" name="email" placeholder="johndoe@example.com" data-type="forminput" class="mouse_trailer"> 
                 </div>
                 <div class="contact-input">
-                    <textarea name="message" name="" placeholder="Hey, I'm John maybe ..." id="" cols="70" rows="10"></textarea>
+                    <textarea name="message" name="" placeholder="Hey, I'm John maybe ..." id="" cols="70" rows="10" data-type="forminput" class="mouse_trailer"></textarea>
                 </div>
                 <div>
                     <button>Contact</button>
