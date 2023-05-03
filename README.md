@@ -1,1 +1,1 @@
-## [Live Version](https://salihbeyatli.com/archive/work/light-portfolio)
+## [Live Version](https://salihbeyatli.github.io/Light-Portfolio/)
