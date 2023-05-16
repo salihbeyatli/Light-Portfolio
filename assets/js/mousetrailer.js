@@ -17,15 +17,15 @@ const animateTrailer = (e, interacting) => {
 const getTrailerClass = type => {
   switch(type) {
     case "imgabout":
-      return "fa-solid fa-address-card fa-inverse";
+      return "fa-solid fa-address-card fa-inverse";  //my photo
     case "headtrack":
-      return "fa-solid fa-paragraph fa-inverse";
+      return "fa-solid fa-paragraph fa-inverse";  //headline
     case "forminput":
-      return "fa-solid fa-text fa-inverse";
-    case "video":
-      return "fa-solid fa-play fa-inverse";
+      return "fa-solid fa-pen fa-inverse"; //contact form
+    case "contactbutton":
+      return "fa-solid fa-paper-plane fa-inverse"; //
     default:
-      return "fa-solid fa-arrow-up-right fa-inverse"; 
+      return "fa-solid fa-plus fa-inverse"; 
   }
 }
 
